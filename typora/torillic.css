@@ -35,3 +35,68 @@
   font-family: "Alegreya", sans-serif;
   color: var(--black);
 }
+
+
+#toggle-sourceview-btn,
+#outline-btn,
+#footer-spell-check,
+#footer-word-count-label,
+::before,
+footer.div {
+  color: var(--green);
+}
+
+a.menu-style-btn:hover {
+  background: var(--red);
+}
+
+a.menu-style-btn > i::before {
+  color: var(--red);
+}
+
+a {
+  color: var(--red);
+}
+
+i::before:hover {
+  color: var(--green);
+}
+
+a.menu-style-btn:hover > i::before {
+  color: var(--green);
+}
+
+a > i::before,
+.state-off::before,
+.state-on::before {
+  color: var(--red);
+}
+
+
+a:hover > i::before {
+  color: var(--green);
+}
+.ty-md-radio-button-on {
+  color: var(--green)
+}
+
+.ty-icon::before {
+  color: inherit
+}
+
+.typora-sourceview-on #toggle-sourceview-btn {
+  background: rgba(0,0,0,0);
+}
+.typora-sourceview-on #toggle-sourceview-btn:hover {
+  background: rgba(255,255,255,0.5);
+}
+
+.btn-primary {
+  color: var(--red);
+  
+}
+.btn-primary:hover {
+  color: var(--green);
+  background: var(--red);
+  
+}
